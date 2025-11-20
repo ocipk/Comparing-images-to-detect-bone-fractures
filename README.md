@@ -1,6 +1,4 @@
-# Comparing-images-to-detect-bone-fractures
-
-# 📌 Image Comparison Using OpenCV
+# 📌 Image comparison to detect bone fractures using OpenCV
 
 ## 📖 Introduction
 
