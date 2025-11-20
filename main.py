@@ -1,6 +1,6 @@
 import cv2 
 PH1 = cv2.imread(r'c:\Users\tooln\Desktop\Myfirstproject\basic.jpg')
-PH2 = cv2.imread(r'C:\Users\tooln\Desktop\Myfirstproject\images\tow.jpg')
+PH2 = cv2.imread(r'C:\Users\tooln\Desktop\Myfirstproject\images\two.jpg')
 
 if PH1.shape == PH2.shape :
     print('The image have same size and channels')
@@ -9,4 +9,5 @@ if PH1.shape == PH2.shape :
     if cv2.countNonZero(b) == 0 and cv2.countNonZero(g) and cv2.countNonZero(r):
         print('The images are completly Equal')
 else:
+
     print('the images are not Equal')
