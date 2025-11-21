@@ -105,12 +105,3 @@ if cv2.countNonZero(b) == 0 and cv2.countNonZero(g) == 0 and cv2.countNonZero(r)
     The images have the same size and channels
     The images are completely Equal
 
-## ⚠️ Notes
-
-Your original script contained a minor logic issue in the equality
-condition.\
-You must check that **all** channels have zero non-zero pixels:
-
-``` python
-cv2.countNonZero(g) == 0 and cv2.countNonZero(r) == 0
-```
