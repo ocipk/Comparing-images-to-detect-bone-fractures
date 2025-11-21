@@ -1,17 +1,15 @@
 # 📌 Image comparison to detect bone fractures using OpenCV
 
 
-
-https://github.com/user-attachments/assets/263d3865-93bf-4b1c-8465-92b56df56de9
-
-
-
 ## 📖 Introduction
 
 This project provides a Python script that uses OpenCV to compare two
 images and determine whether they are completely identical. The script
 checks image dimensions and color channels, then performs a
 pixel-by-pixel subtraction to detect any differences.
+
+https://github.com/user-attachments/assets/263d3865-93bf-4b1c-8465-92b56df56de9
+
 
 ## 📚 Table of Contents
 
